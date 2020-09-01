@@ -9,7 +9,26 @@ main {
 li, p {
   font-size: 20px;
 }
-
+p span {
+  color: blueviolet;
+}
+p em {
+  text-decoration: nono;
+  color: red;
+}
+a:link {
+  color: blue;
+}
+a:hover {
+   color: white;
+   background-color: blue;
+}
+a:active {
+    background-color: darkblue;
+}
+a:visited {
+   color: gray;
+}
 button {
   background: none repeat scroll 0 0 transparent;
   border: 1px solid black;
@@ -17,8 +36,14 @@ button {
   font-family: 'PT Sans Narrow',sans-serif;
   font-size: 16px;
 }
-
-
+button:hover {
+  background-color: black;
+  color: white;
+}
+button:active {
+  color: crimson;
+  background-color: cornflowerblue;
+}
 /* Task 1 */
 
 /* Task 2 */
